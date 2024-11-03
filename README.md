@@ -1,10 +1,15 @@
 
 # **Important message**
 > 
-> This a fork of the existing archived project created by vlebourl. Please contribute here.
+> This a fork of the existing archived project created by vlebourl. Please contribute there (even though it seems to be dead). I say this because I forked this for my personal purposes. I may not update further. If you're looking to add support for devices that are already supported by pyvesync then see below my comments. Good luck!
+
+## Adding New Devices
+It's possible to add new devices by updating the `constant.py` file in this project. Specifically, you'll need to add the name of your device as indicated in the `pyvesync` library. After adding the new device, reboot Home Assistant for the change to take effect. This may work for many devices, but it is not guaranteed for all. Try it out and see if it works for you!
 
 [![hacs_badge](https://img.shields.io/badge/HACS-Default-orange.svg)](https://github.com/custom-components/hacs)
 [![GitHub release](https://img.shields.io/github/v/release/vlebourl/custom_vesync.svg)](https://GitHub.com/vlebourl/custom_vesync/releases/)
+
+
 
 # VeSync custom component for Home Assistant
 
